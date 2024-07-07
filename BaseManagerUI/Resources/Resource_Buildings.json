@@ -1,0 +1,52 @@
+{
+  "Buildings": [
+    {
+      "Name": "FORESTERY",
+      "Description": "Workers can chop down trees and make usable planks from them",
+      "Type": "Building",
+      "DisplayCharacter": "  F  ",
+      "AltNames": [
+        "F",
+        "FOR"
+      ],
+      "ResourcesRequiredToBuild": [
+        {
+          "Name": "Iron",
+          "Quantity": 50
+        }
+      ],
+      "ResourcesGained": [
+        {
+          "Name": "Wood",
+          "Quantity": 0.5
+        }
+      ]
+    },
+    {
+      "Name": "MINE",
+      "Description": "Workers can mine for iron",
+      "Type": "Building",
+      "DisplayCharacter": "  M  ",
+      "AltNames": [
+        "M",
+        "MI"
+      ],
+      "ResourcesRequiredToBuild": [
+        {
+          "Name": "Iron",
+          "Quantity": 50
+        },
+        {
+          "Name": "Wood",
+          "Quantity": 100
+        }
+      ],
+      "ResourcesGained": [
+        {
+          "Name": "Iron",
+          "Quantity": 0.25
+        }
+      ]
+    }
+  ]
+}
